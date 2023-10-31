@@ -1,0 +1,71 @@
+2023-10-14 18:54:03,441 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-10-14 18:54:03,472 INFO c.e.q.QspringApplication [restartedMain] Starting QspringApplication using Java 20.0.1 with PID 3652 (D:\Microsoft VS Code\projects\__own\_jav\qspring\target\classes started by Lenovo in D:\Microsoft VS Code\projects\__own\_jav\qspring)
+2023-10-14 18:54:03,476 INFO c.e.q.QspringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-14 18:54:03,514 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-14 18:54:03,514 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-14 18:54:04,102 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-14 18:54:04,152 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2023-10-14 18:54:04,751 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-10-14 18:54:04,762 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-14 18:54:04,765 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-14 18:54:04,766 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-10-14 18:54:04,856 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-14 18:54:04,857 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1341 ms
+2023-10-14 18:54:05,020 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-14 18:54:05,075 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-10-14 18:54:05,078 INFO o.h.c.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2023-10-14 18:54:05,197 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-10-14 18:54:05,306 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-14 18:54:05,330 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-10-14 18:54:05,504 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e70076b
+2023-10-14 18:54:05,505 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-10-14 18:54:05,707 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-10-14 18:54:06,270 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-14 18:54:06,341 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-14 18:54:06,573 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-14 18:54:06,962 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-14 18:54:07,849 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-10-14 18:54:07,860 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-14 18:54:07,878 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-14 18:54:07,886 INFO c.e.q.QspringApplication [restartedMain] Started QspringApplication in 4.659 seconds (process running for 5.384)
+2023-10-14 18:54:14,205 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-14 18:54:14,205 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-14 18:54:14,206 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-10-14 18:54:22,781 INFO c.e.q.DatabaseLogger [http-nio-8080-exec-4] Table changes 'groups': ІП-21-4
+2023-10-14 18:54:26,290 INFO c.e.q.DatabaseLogger [http-nio-8080-exec-6] Table changes 'groups': ІП-21-5
+2023-10-14 19:11:22,937 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-10-14 19:11:22,971 INFO c.e.q.QspringApplication [restartedMain] Starting QspringApplication using Java 20.0.1 with PID 15264 (D:\Microsoft VS Code\projects\__own\_jav\qspring\target\classes started by Lenovo in D:\Microsoft VS Code\projects\__own\_jav\qspring)
+2023-10-14 19:11:22,973 INFO c.e.q.QspringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-14 19:11:23,010 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-14 19:11:23,011 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-14 19:11:23,667 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-14 19:11:23,734 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 57 ms. Found 3 JPA repository interfaces.
+2023-10-14 19:11:24,428 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-10-14 19:11:24,437 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-14 19:11:24,439 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-14 19:11:24,440 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-10-14 19:11:24,530 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-14 19:11:24,531 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1519 ms
+2023-10-14 19:11:24,684 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-14 19:11:24,729 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-10-14 19:11:24,731 INFO o.h.c.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2023-10-14 19:11:24,848 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-10-14 19:11:24,957 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-14 19:11:24,977 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-10-14 19:11:25,160 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@23f176f
+2023-10-14 19:11:25,161 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-10-14 19:11:25,390 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-10-14 19:11:26,015 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-14 19:11:26,110 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-14 19:11:26,382 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-14 19:11:26,833 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-14 19:11:28,007 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-10-14 19:11:28,018 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-14 19:11:28,038 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-14 19:11:28,051 INFO c.e.q.QspringApplication [restartedMain] Started QspringApplication in 5.359 seconds (process running for 6.152)
+2023-10-14 19:11:35,835 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-14 19:11:35,835 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-14 19:11:35,836 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-10-14 19:12:54,451 INFO c.e.q.DatabaseLogger [http-nio-8080-exec-3] Table changes 'groups': ІП-21-4
+2023-10-14 19:14:04,957 INFO c.e.q.DatabaseLogger [http-nio-8080-exec-10] Table changes 'groups': ІП-21-5
+2023-10-14 19:14:07,948 INFO c.e.q.DatabaseLogger [http-nio-8080-exec-8] Table changes 'groups': ІП-21-56

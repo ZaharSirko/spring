@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Missed lessons</title> 
+</head>
+<body>
+    <header th:insert="~{blocks/header::header}"></header>
+  <main>
+  <div class="container mt-5">
+        <h1>Missed lessons</h1>
+        <table class="table table-striped">
+          <thead>
+              <tr>
+                  <th> # </th>
+                  <th> Student </th>
+                  <th> Reason </th>
+                  <th> Houre </th>
+                  <th> Date </th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr th:each="el : ${missedLesson}">
+                  <td><span th:text="${el.skip_id}"> # </span></td>
+                  <td><span th:text="${el.student.std_name} +'  '+ ${el.student.surename}">Student</span></td>  
+                  <td><span th:text="${el.skip_reason}"> Reason </span></td>
+                  <td><span th:text="${el.skips_houre}"> Houre </span></td>
+                  <td><span th:text="${el.date}"> Date </span></td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+  </main>
+  <footer th:insert="~{blocks/footer::footer}"></footer>
+
+</body>
+</html>
